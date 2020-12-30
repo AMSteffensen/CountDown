@@ -159,6 +159,10 @@ ul.social-media-list img:hover {
     font-size: 0.8rem;
   }
 
+  ul.social-media-list {
+    margin-bottom: 15%;
+  }
+
   article {
     margin: 30px;
   }
