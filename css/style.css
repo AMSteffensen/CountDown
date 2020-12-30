@@ -17,6 +17,7 @@ body {
   font-weight: 700;
   font-family: "Red Hat Text", sans-serif;
   color: var(--white);
+  text-transform: uppercase;
 }
 
 .wrapper {
@@ -51,6 +52,7 @@ body {
   background: var(--darkdesaturatedblue);
   padding: 0.5em;
   border-radius: 20px;
+  box-shadow: 2px 5px 5px black;
 }
 
 .description {
