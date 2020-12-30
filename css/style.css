@@ -25,6 +25,7 @@ body {
   overflow-y: scroll;
   position: relative;
   overflow-x: hidden;
+  margin-top: 10%;
 }
 
 .countdown {
@@ -69,7 +70,7 @@ body {
 }
 
 .container {
-  margin-top: 75px;
+  margin-bottom: 5%;
 }
 
 .title {
@@ -77,6 +78,14 @@ body {
   font-size: 1.5rem;
   text-align: center;
   font-weight: 700;
+  letter-spacing: 0.6rem;
+}
+
+.description-text {
+    letter-spacing: 0.3rem;
+    color:hsl(0, 5%, 62%);
+    font-size: 0.7rem;
+    font-weight: 300;
 }
 
 .attribution {
@@ -141,7 +150,7 @@ ul.social-media-list img:hover {
 
 /* Media Queries */
 
-@media (max-width: 700px) {
+@media (max-width: 999px) {
   section {
     padding: 10px;
   }
@@ -149,7 +158,27 @@ ul.social-media-list img:hover {
   .title {
     font-size: 2rem;
   }
+
+  ul.social-media-list {
+    margin-bottom: 8%;
+  }
+
 }
+
+@media (max-width: 699px) {
+    section {
+      padding: 10px;
+    }
+  
+    .title {
+      font-size: 2rem;
+    }
+  
+    ul.social-media-list {
+      margin-bottom: 8%;
+    }
+  
+  }
 
 @media (max-width: 500px) {
   .countdown {
